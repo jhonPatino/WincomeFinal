@@ -1,5 +1,5 @@
 import Advice from "./Advice";
-import { Transaccion } from "./Transaccion";
+import { Transaccion } from "./Transaccion.jsx";
 
 export const TContainer = () => {
   return (

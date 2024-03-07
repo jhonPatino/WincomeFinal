@@ -4,7 +4,7 @@ const fs = require('fs');
 const app = express();
 
 app.use(express.json());
-app.use(cors({ origin: 'http://localhost:5173' }));
+app.use(cors({ origin: 'https://wincome-final-github-io.vercel.app/' }));
 
 app.post('/api/registro', (req, res) => {
   const nuevoUsuario = req.body;
@@ -247,6 +247,8 @@ app.post('/api/deleteEgreso', (req, res) => {
   });
 });
 
-app.listen(5000, () => {
-  console.log('Servidor escuchando en el puerto 5000');
+const PORT = process.env.PORT || 5000; // Utiliza el puerto asignado por Vercel o 5000 si no está definido
+
+app.listen(PORT, () => {
+  console.log(`Servidor escuchando en el puerto ${PORT}`);
 });
