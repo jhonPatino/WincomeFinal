@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1",
+    "titulo": "Gasta correctamente tu dinero:",
+    "descripcion": "Distribuye tu dinero correctamente, 50% en necesidades basicas, 30% en gustos o actividades de interes y el 20% restante ahorralo!"
+  },
+  {
+    "id": "2",
+    "titulo": "Elabora un presupuesto:",
+    "descripcion": "Establece metas y ajusta tu presupuesto para conseguirlas mas facilmente."
+  },
+  {
+    "id": "3",
+    "titulo": "Diversifica las Inversiones:",
+    "descripcion": "No pongas todos tus ahorros en una sola inversión, diversifica para reducir el riesgo."
+  },
+  {
+    "id": "4",
+    "titulo": "Mantén un Fondo de Emergencia:",
+    "descripcion": "Guarda suficiente dinero para cubrir gastos imprevistos."
+  },
+  {
+    "id": "5",
+    "titulo": "Vive por Debajo de tus Posibilidades: ",
+    "descripcion": "Evita gastar más de lo que ganas para construir una sólida base financiera."
+  },
+  {
+    "id": "6",
+    "titulo": "Revisa tus Suscripciones:",
+    "descripcion": "Cancela suscripciones y membresías que no utilices regularmente."
+  },
+  {
+    "id": "7",
+    "titulo": "Compra con Inteligencia:",
+    "descripcion": "Investiga y compara precios antes de realizar compras importantes."
+  },
+  {
+    "id": "8",
+    "titulo": "Crea un Flujo de Ingresos Pasivos:",
+    "descripcion": "Invierte en activos que generen ingresos recurrentes sin tu participación activa."
+  },
+  {
+    "id": "9",
+    "titulo": "Construye un Historial Crediticio Sólido:",
+    "descripcion": "Paga tus deudas a tiempo y mantén un buen puntaje crediticio."
+  },
+  {
+    "id": "10",
+    "titulo": "Planifica tus Vacaciones:",
+    "descripcion": "Presupuesta y ahorra con anticipación para disfrutar de tus vacaciones sin deudas"
+  }
+]
