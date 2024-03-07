@@ -1,5 +1,5 @@
-import { Header } from "../Components/App/Header.jsx";
-import { TContainer } from "../Components/App/TContainer.jsx";
+import { Header } from "../components/App/Header.jsx";
+import { TContainer } from "../components/App/TContainer.jsx";
 
 function Wincome() {
   return (
