@@ -1,4 +1,4 @@
-import { UserRegister } from "../Components/Login/UserRegister";
+import { UserRegister } from "../Components/login/UserRegister";
 
 const Register = () => {
   return (
