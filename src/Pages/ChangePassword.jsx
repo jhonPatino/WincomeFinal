@@ -1,4 +1,4 @@
-import { Password } from "../Components/Login/Password";
+import { Password } from "../components/login/Password";
 
 const ChangePassword = () => {
   return (
