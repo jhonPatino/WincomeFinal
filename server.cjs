@@ -4,7 +4,7 @@ const fs = require('fs');
 const app = express();
 
 app.use(express.json());
-app.use(cors({ origin: 'https://wincome-final-github-io.vercel.app/' }));
+app.use(cors({ origin: 'http://localhost:5173' }));
 
 app.post('/api/registro', (req, res) => {
   const nuevoUsuario = req.body;
