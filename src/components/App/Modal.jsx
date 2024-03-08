@@ -15,7 +15,7 @@ export const ModalIngreso = ({ estado, cambiarEstado }) => {
       setError('Todos los campos son obligatorios');
       return;
     }
-    fetch('http://localhost:5000/api/ingresos', {
+    fetch('https://7d44-186-84-90-117.ngrok-free.app/api/ingresos', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -127,7 +127,7 @@ export const ModalEgreso = ({ estado, cambiarEstado }) => {
       setError('Todos los campos son obligatorios');
       return;
     }
-    fetch('http://localhost:5000/api/egresos', {
+    fetch('https://7d44-186-84-90-117.ngrok-free.app/api/egresos', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

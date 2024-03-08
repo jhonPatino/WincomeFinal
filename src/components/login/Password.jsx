@@ -19,7 +19,7 @@ export const Password = () => {
     e.preventDefault();
   
     try {
-      const response = await fetch("http://localhost:5000/api/cambiar", {
+      const response = await fetch("https://7d44-186-84-90-117.ngrok-free.app/api/cambiar", {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

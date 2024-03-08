@@ -22,7 +22,7 @@ export const UserRegister = () => {
     };
 
     // Envía los datos al servidor
-    fetch("http://localhost:5000/api/registro", {
+    fetch("https://7d44-186-84-90-117.ngrok-free.app/api/registro", {
       method: "POST",
       body: JSON.stringify(nuevoUsuario),
       headers: {

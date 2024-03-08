@@ -11,7 +11,7 @@ export const Transaccion = () => {
   const [egresos, setEgresos] = useState(a.egresos);
 
   const handleDeleteIngreso = (id) => {
-    const url = 'http://localhost:5000/api/deleteIngreso';
+    const url = 'https://7d44-186-84-90-117.ngrok-free.app/api/deleteIngreso';
     const data = {
       userEmail: user.email,
       ingresoId: id,
@@ -41,7 +41,7 @@ export const Transaccion = () => {
   };
   
   const handleDeleteEgreso = (id) => {
-    const url = 'http://localhost:5000/api/deleteEgreso';
+    const url = 'https://7d44-186-84-90-117.ngrok-free.app/api/deleteEgreso';
     const data = {
       userEmail: user.email,
       egresoId: id,
